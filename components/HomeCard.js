@@ -13,8 +13,8 @@ export default function MultiActionAreaCard() {
 
         <Container>
 
-            <Typography variant="h2" color="initial">
-
+            <Typography variant="h3" component='h2' color="initial" sx={{ pt: 3}}>
+                  All Categories
             </Typography>
             <Grid container
                 direction="row"
@@ -26,7 +26,7 @@ export default function MultiActionAreaCard() {
                         <CardActionArea> 
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Computer Accesserires 
+                                    Computer Accessories 
                                 </Typography>
                             </CardContent>
                             <CardMedia
@@ -52,7 +52,7 @@ export default function MultiActionAreaCard() {
                         <CardActionArea>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Computer Accesserires 
+                                    Computer Accessories 
                                 </Typography>
                             </CardContent>
                             <CardMedia
@@ -78,7 +78,7 @@ export default function MultiActionAreaCard() {
                         <CardActionArea>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Computer Accesserires 
+                                    Computer Accessories 
                                 </Typography>
                             </CardContent>
                             <CardMedia
@@ -104,7 +104,7 @@ export default function MultiActionAreaCard() {
                         <CardActionArea>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Computer Accesserires 
+                                    Computer Accessories 
                                 </Typography>
                             </CardContent>
                             <CardMedia
@@ -130,7 +130,7 @@ export default function MultiActionAreaCard() {
                         <CardActionArea>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Computer Accesserires 
+                                    Computer Accessories 
                                 </Typography>
                             </CardContent>
                             <CardMedia
@@ -156,7 +156,7 @@ export default function MultiActionAreaCard() {
                         <CardActionArea>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Computer Accesserires 
+                                    Computer Accessories 
                                 </Typography>
                             </CardContent>
                             <CardMedia

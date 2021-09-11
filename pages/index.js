@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import All_product from '../components/All_products'
 import Header from '../components/Header'
 import HomeCard from '../components/HomeCard'
 // import Text from '../components/Text'
@@ -12,6 +13,7 @@ export default function Home() {
 
        {/* <Text /> */}
        <HomeCard />
+       <All_product />
   </>
   )
 }
