@@ -9,11 +9,11 @@ import InputBase from '@mui/material/InputBase';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import CameraIcon from '@mui/icons-material/Camera';
 import MoreIcon from '@mui/icons-material/MoreVert';
 
 const Search = styled('div')(({ theme }) => ({
@@ -154,9 +154,11 @@ export default function PrimarySearchAppBar() {
     </Menu>
   );
 
+  const Offset = styled('div')(({ theme }) => theme.mixins.toolbar);
+
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
           <IconButton
             size="large"
@@ -165,7 +167,7 @@ export default function PrimarySearchAppBar() {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            <CameraIcon />
           </IconButton>
           <Typography
             variant="h6"
@@ -173,7 +175,7 @@ export default function PrimarySearchAppBar() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            Material-UI
+            Mini Amazon
           </Typography>
           <Search >
             <SearchIconWrapper>
@@ -187,6 +189,7 @@ export default function PrimarySearchAppBar() {
           
         </Toolbar>
       </AppBar>
+      <Offset />
       {renderMobileMenu}
       {renderMenu}
     </Box>

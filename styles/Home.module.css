@@ -5,3 +5,21 @@
     padding: 4px;
     margin: 4px;
 }
+
+.footer {
+    padding: 6px 0px;
+    text-align: center;
+    background-color: #1976D2;
+    color: white;
+    font-size: medium;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover .gridbox{
+    background-color: #F6F6F6;
+    transition: ease-in 0.3s;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
