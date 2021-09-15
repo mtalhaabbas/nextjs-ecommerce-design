@@ -1,4 +1,5 @@
 import { Container, Grid, Typography, Card, CardMedia, CardActions, Link, CardContent, Button, Rating, Box } from "@mui/material";
+
 import styles from '../styles/Home.module.css'
 
 const All_product = () => {
@@ -15,7 +16,7 @@ const All_product = () => {
             <Grid sx={{ my: 2, mt: 1, pt: 0 }} container spacing={4}>
 
 
-                <Grid item xs='auto' xs={12} sm={6} md={4} lg={3} >
+                <Grid item xs='auto'  sm={6} md={4} lg={3} >
                     <Card className={styles.card}>
                         <CardMedia
                             component="img"
@@ -55,7 +56,7 @@ const All_product = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs='auto' xs={12} sm={6} md={4} lg={3} >
+                <Grid item xs='auto' sm={6} md={4} lg={3} >
                     <Card className={styles.card}>
                         <CardMedia
                             component="img"
@@ -95,7 +96,7 @@ const All_product = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs='auto' xs={12} sm={6} md={4} lg={3} >
+                <Grid item xs='auto'  sm={6} md={4} lg={3} >
                     <Card className={styles.card}>
                         <CardMedia
                             component="img"
@@ -135,7 +136,7 @@ const All_product = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs='auto' xs={12} sm={6} md={4} lg={3} >
+                <Grid item xs='auto'  sm={6} md={4} lg={3} >
                     <Card className={styles.card}>
                         <CardMedia
                             component="img"
@@ -175,7 +176,7 @@ const All_product = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs='auto' xs={12} sm={6} md={4} lg={3} >
+                <Grid item xs='auto' sm={6} md={4} lg={3} >
                     <Card className={styles.card}>
                         <CardMedia
                             component="img"
@@ -215,7 +216,7 @@ const All_product = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs='auto' xs={12} sm={6} md={4} lg={3} >
+                <Grid item xs='auto'  sm={6} md={4} lg={3} >
                     <Card className={styles.card}>
                         <CardMedia
                             component="img"
@@ -255,7 +256,7 @@ const All_product = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs='auto' xs={12} sm={6} md={4} lg={3} >
+                <Grid item xs='auto' sm={6} md={4} lg={3} >
                     <Card className={styles.card}>
                         <CardMedia
                             component="img"
