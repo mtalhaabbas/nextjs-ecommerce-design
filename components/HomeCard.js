@@ -8,9 +8,12 @@ import Link from 'next/link'
 
 
 export default function MultiActionAreaCard() {
+
+
+
+
+
     return (
-
-
         <Container>
 
             <Typography variant="h3" component='h2' color="initial" sx={{ pt: 3}}>

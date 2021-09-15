@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className={styles.footer}>
     <Typography variant='body' >
 
-    Copyright @Talha&Sarosh | Mini Amazon
+    Copyright @T&S | Mini Amazon
     </Typography>
     </footer> );
 }

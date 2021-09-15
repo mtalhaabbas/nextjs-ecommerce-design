@@ -5,5 +5,4 @@ const product = () => {
         <Product_detail />
      );
 }
- 
 export default product;
