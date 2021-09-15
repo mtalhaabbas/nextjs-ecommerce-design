@@ -1,36 +1,7 @@
 import { Container, Grid, Typography, Card, CardMedia, CardActions, Link, CardContent, Button, Rating, Box } from "@mui/material";
-import React,{useEffect,useState} from 'react'
 import styles from '../styles/Home.module.css'
 
 const All_product = () => {
-
-const get_products=()=>{    
-    var axios = require("axios").default;
-
-    var options = {
-      method: 'GET',
-      url: 'https://ebay-products.p.rapidapi.com/product',
-      params: {
-        url: 'https%3A%2F%2Fwww.ebay.co.uk%2Fitm%2FBox-Celeron-15-6-Quad-Core-Laptop-4GB-Ram-500GB-Wireless%2F274237631139'
-      },
-      headers: {
-        'x-rapidapi-host': 'ebay-products.p.rapidapi.com',
-        'x-rapidapi-key': '884f9315eemshfc17ca4d618877ap1a09aajsnf3bfa3f6d501'
-      }
-    };
-    
-    axios.request(options).then(function (response) {
-        console.log(response.data);
-    }).catch(function (error) {
-        console.error(error);
-    });
-}
-
-useEffect(() => {
-    get_products()
-}, [])
-
-
 
     return (
         <Container>
